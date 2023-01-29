@@ -1,0 +1,144 @@
+.subscribe{
+
+}
+.section-subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 199px;
+    margin-bottom: 50px;
+}
+.section-subscribe-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-subscribe-tittle-head{
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 57px;
+font-size: 18px;
+line-height: 27px;
+
+}
+.section-subscribe-tittle-subhead{
+    margin-bottom: 70px;
+    padding: 10px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+.section-subscribe-footer{
+
+}
+.section-subscribe-footer-input{
+    padding: 14px 28px;
+    font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+    background: #EFEFEF;
+border: 1px solid #D0D0D0;
+border-radius: 6px;
+}
+.section-subscribe-footer-button{
+    margin-left: 10px;
+padding: 18px 46px;
+color: $color-red;
+box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+border-radius: 39px;
+background: #03D6F3;
+border: none;
+cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 86px;
+    background: #112D57;
+    color: $color-red;
+}
+.footer-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+.footer-center-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-center-list-item{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+}
+.footer-center-list-left{
+
+}
+.footer-center-list-right{
+
+}
+.footer-center-list-left-text{
+    
+}
+.footer-center-list-banner{
+margin: 0px 88px;
+}
+.footer-center-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.footer-center-container-right-tittle{
+    
+    margin-bottom: 10px;
+}
+.footer-center-container-right-subtittle{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.footer-center-container-right-subsubtittle{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+.MockingbirdHillundefined {
+    padding: 10px;
+}
+.number{
+    padding: 10px;
+}
+.footer-center-container-right-vector3{
+    padding: 4px 8px;
+}
+.footer-center-container-right-vector4{
+    padding: 4px 8px;
+}
+.footer-center-container-right-vector5{
+    padding: 4px 8px;
+    margin-right: 28px;
+}
+.footer-center-container-right-vector6{
+    padding: 4px 8px;
+    margin-right: 28px;
+}
+.footer-center-container-right-vector7{
+    padding: 4px 8px;
+    margin-right: 28px;
+}
+.footer-center-container-right-number{
+
+}
+.footer-center-container-right-img{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 0px;
+}

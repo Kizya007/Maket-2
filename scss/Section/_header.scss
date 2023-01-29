@@ -1,0 +1,205 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    color: #FFFFFF;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 74px;
+}
+
+.header-section-container-image {
+    margin-right: 222px;
+}
+
+.header-section-container-list {
+    display: flex;
+    list-style-type: none;
+
+
+
+}
+
+.header-menu-mobile-button {
+    display: none;
+    padding: 18px 46px;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    border-radius: 39px;
+    border: 1px solid #FFFFFF;
+    color: $color-red;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.header-menu-mobile {}
+
+.header-menu-mobile-list {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: $color-red;
+}
+
+.header-section-container-list-home {
+    margin-right: 40px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.header-section-container-list-product {
+    margin-right: 40px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.header-section-container-list-contact {
+    margin-right: 264px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.header-section-container-list-about {
+    margin-right: 40px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.header-section-container-button {
+    padding: 18px 46px;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    border-radius: 39px;
+    border: 1px solid #FFFFFF;
+    color: $color-red;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.header-section-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-section-center-container-tittle {
+    width: 590px;
+    text-align: center;
+    margin-bottom: 18px;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+}
+
+.header-section-center-container-subtittle {
+    margin-bottom: 70px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header-section-center-button {
+    margin-bottom: 60px;
+}
+
+.header-section-center-button-left {
+    padding: 18px 46px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    background-color: $color-red;
+    border: 1px solid #FFFFFF;
+    color: #112D57;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.header-section-center-button-right {
+    padding: 18px 46px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: $color-red;
+    cursor: pointer;
+}
+
+.header-section-center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 86px;
+}
+
+.header-section-center-img-item {
+    width: 100%;
+}
+
+.header-button {
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .header-section-container-list {
+        display: none;
+    }
+
+    .header-menu-mobile-button {
+        display: block;
+    }
+
+    .header-section-container-button {
+        display: none;
+    }
+    .header-section-center-container-tittle {
+    width: 100%;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    }
+    .header-section-center-container-subtittle{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    }
+    .header-section-center-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .header-section-center-button-left {
+     padding: 20px 70px;   
+    margin-bottom: 14px;
+    }
+    .header-section-center-button-right{
+        padding: 20px 70px;
+    }
+    .header-menu-mobile{
+        position: absolute;
+    }
+}
