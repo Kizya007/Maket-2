@@ -796,3 +796,38 @@ a {
   align-items: center;
   padding: 20px 0px;
 }
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.no-showed {
+  display: none;
+}
+
+.modal-window {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  display: none;
+  opacity: 0.5;
+}
+
+.showed {
+  display: block;
+}
